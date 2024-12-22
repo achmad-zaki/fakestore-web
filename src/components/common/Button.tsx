@@ -20,7 +20,7 @@ const Button: FC<ButtonProps> = ({ name, className, size = 'default', type = 'bu
     return (
         <CustomButton
             type={type}
-            className={twMerge(`rounded-full bg-sky-600 text-sm text-white data-[hover]:bg-sky-500 data-[active]:bg-sky-700 transition-smooth font-medium`, className, sizeButton[size])}
+            className={twMerge(`rounded-full bg-purple-800 text-sm text-white data-[hover]:bg-purple-600 data-[active]:bg-purple-700 transition-smooth font-medium`, className, sizeButton[size])}
         >
             {name}
         </CustomButton>
