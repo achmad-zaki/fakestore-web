@@ -29,7 +29,7 @@ const NavBottom = () => {
     }, [lastScrollY]);
 
     return (
-        <div className={`fixed bottom-0 bg-white w-full transform-gpu py-4 border-t border-gray-300 ${show ? 'translate-y-0' : 'translate-y-full'} transition-smooth delay-200`}>
+        <div className={`lg:hidden fixed bottom-0 bg-white w-full transform-gpu py-4 border-t border-gray-300 ${show ? 'translate-y-0' : 'translate-y-full'} transition-smooth`}>
             <div className="flex justify-center gap-8 items-center">
                 <Link href='#'>
                     <RiHome5Line className="size-6" />

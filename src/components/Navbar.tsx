@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <>
             <div className="bg-black text-white text-center py-1 font-semibold text-sm">Mega Sell DISC - 50%</div>
-            <header className={`sticky top-0 py-4 bg-white transition-smooth ${show ? 'translate-y-0' : '-translate-y-full delay-200'}`}>
+            <header className={`sticky top-0 py-4 z-50 bg-white transition-smooth ${show ? 'translate-y-0 border-b border-gray-300' : '-translate-y-full'}`}>
                 <div className="px-4 flex items-center justify-between">
                     <div className="flex items-center gap-8 flex-1">
                         <div className="text-purple-700 font-bold text-lg md:text-2xl">Fake - Store</div>
